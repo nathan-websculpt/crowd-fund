@@ -1,7 +1,7 @@
 # 🚀 🌑 Crowd Fund
 A barebones proof-of-concept for a “Crowdfunding” app.
 
-⚙️ Built with [Scaffold-ETH 2](#🏗-scaffold-eth-2), using NextJS, RainbowKit, Hardhat, Wagmi, and Typescript.
+⚙️ Built with [Scaffold-ETH 2](#scaffold-eth-2), using NextJS, RainbowKit, Hardhat, Wagmi, and Typescript.
 
 ## Overview
 ### 📜 *The 'rules-of-use' are simplistic and standard:*
