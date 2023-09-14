@@ -15,10 +15,10 @@ export const Footer = () => {
   return (
     <div className="min-h-0 p-5 mb-11 lg:mb-0">
       <div>
-        <div className="fixed flex justify-between items-center w-full z-10 p-4 bottom-0 left-0 pointer-events-none">
+        <div className="fixed bottom-0 left-0 z-10 flex items-center justify-between w-full p-4 pointer-events-none">
           <div className="flex space-x-2 pointer-events-auto">
             {nativeCurrencyPrice > 0 && (
-              <div className="btn btn-primary btn-sm font-normal cursor-auto gap-0">
+              <div className="gap-0 font-normal cursor-auto btn btn-primary btn-sm">
                 <CurrencyDollarIcon className="h-4 w-4 mr-0.5" />
                 <span>{nativeCurrencyPrice}</span>
               </div>
@@ -29,8 +29,8 @@ export const Footer = () => {
         </div>
       </div>
       <div className="w-full">
-        <ul className="menu menu-horizontal w-full">
-          <div className="flex justify-center items-center gap-2 text-sm w-full">
+        <ul className="w-full menu menu-horizontal">
+          <div className="flex items-center justify-center w-full gap-2 text-sm">
             <div>
               <a
                 href="https://github.com/scaffold-eth/se-2"
@@ -38,12 +38,23 @@ export const Footer = () => {
                 rel="noreferrer"
                 className="underline underline-offset-2"
               >
-                Fork me
+                Fork Scaffold-Eth 2
               </a>
             </div>
             <span>·</span>
             <div>
-              Built with <HeartIcon className="inline-block h-4 w-4" /> at 🏰{" "}
+              <a
+                href="https://github.com/websculpt-nathan"
+                target="_blank"
+                rel="noreferrer"
+                className="underline underline-offset-2"
+              >
+                Fork me [TODO]
+              </a>
+            </div>
+            <span>·</span>
+            <div>
+              Built with <HeartIcon className="inline-block w-4 h-4" /> at 🏰{" "}
               <a
                 href="https://buidlguidl.com/"
                 target="_blank"

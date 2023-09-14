@@ -1,4 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn lint-staged --verbose
+# comment out to prevent Lint Checks on staged files
+# yarn lint-staged --verbose

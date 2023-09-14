@@ -9,7 +9,7 @@ import { WagmiConfig } from "wagmi";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
 import { BlockieAvatar } from "~~/components/scaffold-eth";
-import { useNativeCurrencyPrice } from "~~/hooks/scaffold-eth";
+import { useFetchBlocks, useNativeCurrencyPrice } from "~~/hooks/scaffold-eth";
 import { useGlobalState } from "~~/services/store/store";
 import { wagmiConfig } from "~~/services/web3/wagmiConfig";
 import { appChains } from "~~/services/web3/wagmiConnectors";
@@ -21,6 +21,7 @@ const ScaffoldEthApp = ({ Component, pageProps }: AppProps) => {
   // This variable is required for initial client side rendering of correct theme for RainbowKit
   const [isDarkTheme, setIsDarkTheme] = useState(true);
   const { isDarkMode } = useDarkMode();
+  // const blocksFetched = useFetchBlocks();
 
   useEffect(() => {
     if (price > 0) {
@@ -31,6 +32,21 @@ const ScaffoldEthApp = ({ Component, pageProps }: AppProps) => {
   useEffect(() => {
     setIsDarkTheme(isDarkMode);
   }, [isDarkMode]);
+
+  // useEffect(() => {
+  //   const logBlocks = async () => {
+  //     console.log(
+  //       "🔗 ⛏   useFetchBlocks() found a new block ... \n🔎      hash: ",
+  //       blocksFetched?.blocks[0]?.hash,
+  //       "\n🔐      nonce: ",
+  //       blocksFetched?.blocks[0]?.nonce,
+  //       "\n⏳      timestamp: ",
+  //       blocksFetched?.blocks[0]?.timestamp,
+  //     );
+  //   };
+
+  //   logBlocks();
+  // }, [blocksFetched]);
 
   return (
     <WagmiConfig config={wagmiConfig}>
