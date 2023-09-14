@@ -49,7 +49,7 @@ export const Footer = () => {
                 rel="noreferrer"
                 className="underline underline-offset-2"
               >
-                Fork me 
+                Fork me
               </a>
             </div>
             <span>·</span>
