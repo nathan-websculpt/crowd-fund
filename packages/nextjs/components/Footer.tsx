@@ -44,12 +44,12 @@ export const Footer = () => {
             <span>·</span>
             <div>
               <a
-                href="https://github.com/websculpt-nathan"
+                href="https://github.com/nathan-websculpt/crowd-fund"
                 target="_blank"
                 rel="noreferrer"
                 className="underline underline-offset-2"
               >
-                Fork me [TODO]
+                Fork me
               </a>
             </div>
             <span>·</span>

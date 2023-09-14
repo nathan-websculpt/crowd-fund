@@ -40,8 +40,8 @@ To get started with Crowd Fund, follow the steps below ([To get started with SE-
 1. Clone this repo & install dependencies
 
 ```
-git clone https://github.com/TODOTODOTODO
-cd TODO
+git clone https://github.com/nathan-websculpt/crowd-fund.git
+cd crowd-fund
 yarn install
 ```
 
