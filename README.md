@@ -3,6 +3,11 @@ A barebones proof-of-concept for a “Crowdfunding” app.
 
 ⚙️ Built with [Scaffold-ETH 2](#Contents), using NextJS, RainbowKit, Hardhat, Wagmi, and Typescript.
 
+#### Follow-along blogs:
+
+- [Blog for the Smart Contract](https://medium.com/@websculpt/building-a-project-with-se-2-crowd-fund-part-two-the-contract-9c031402b33e)
+- [Blog for the frontend components](https://medium.com/@websculpt/building-a-project-with-se-2-crowd-fund-part-three-the-components-3c11e26595bb)
+
 ## Overview
 ### 📜 *The 'rules-of-use' are simplistic and standard:*
 
